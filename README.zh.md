@@ -410,6 +410,30 @@ Threads-Archiver/
 - ⚠️ 請保留原始授權聲明
 - ⚠️ 不提供任何擔保
 
+### 📖 引用說明（選用）
+
+如果此專案對您有幫助或啟發了您的作品，歡迎引用以支持社群發展：
+
+```bibtex
+@software{threads_collector_2025,
+  author = {jyusiwong},
+  title = {Threads Content Collector: Disney & Zootopia Archive Toolkit},
+  year = {2025},
+  url = {https://github.com/jyusiwong/Hong-Kong-Fire-Threads-Archive},
+  note = {A hobby archival toolkit for Disney fans with AI-powered organization}
+}
+```
+
+**APA 格式：**
+```
+jyusiwong. (2025). Threads Content Collector: Disney & Zootopia Archive Toolkit [Computer software]. GitHub. https://github.com/jyusiwong/Hong-Kong-Fire-Threads-Archive
+```
+
+**MLA 格式：**
+```
+jyusiwong. Threads Content Collector: Disney & Zootopia Archive Toolkit. GitHub, 2025, https://github.com/jyusiwong/Hong-Kong-Fire-Threads-Archive.
+```
+
 ---
 
 <div align="center">

@@ -411,6 +411,30 @@ Found a bug? Have a feature idea? Contributions welcome!
 - ⚠️ Include original license notice
 - ⚠️ No warranty provided
 
+### 📖 Citation (Optional)
+
+If this project helped you or inspired your work, consider citing it to support community development:
+
+```bibtex
+@software{threads_collector_2025,
+  author = {jyusiwong},
+  title = {Threads Content Collector: Disney & Zootopia Archive Toolkit},
+  year = {2025},
+  url = {https://github.com/jyusiwong/Threads-Collector},
+  note = {A hobby archival toolkit for Disney fans with AI-powered organization}
+}
+```
+
+**APA Style:**
+```
+jyusiwong. (2025). Threads Content Collector: Disney & Zootopia Archive Toolkit [Computer software]. GitHub. https://github.com/jyusiwong/Threads-Collector
+```
+
+**MLA Style:**
+```
+jyusiwong. Threads Content Collector: Disney & Zootopia Archive Toolkit. GitHub, 2025, https://github.com/jyusiwong/Threads-Collector.
+```
+
 ---
 
 <div align="center">
