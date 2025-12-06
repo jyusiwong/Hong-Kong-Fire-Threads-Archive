@@ -4,9 +4,118 @@
 <!-- 🎄 聖誕節動物方城市橫幅 2025 ❄️ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=Threads%20Content%20Collector&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=40"/>
-
-<h3 align="center">🎄 ❄️ 您的專屬迪士尼與優獸大都會檔案館 ✨ 🎁</h3>
+<svg width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Snowflake Animation -->
+    <style>
+      @keyframes fall {
+        0% { transform: translateY(0px) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(250px) rotate(360deg); opacity: 0.3; }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 3px rgba(255,255,255,0.8)); }
+        50% { filter: drop-shadow(0 0 10px rgba(255,255,255,1)); }
+      }
+      .snowflake {
+        animation: fall linear infinite, twinkle 2s ease-in-out infinite;
+      }
+      .banner-text {
+        transition: all 0.3s ease;
+      }
+      svg:hover .banner-text {
+        animation: glow 1.5s ease-in-out infinite;
+      }
+      svg:hover .snowflake {
+        animation-duration: 3s, 1s !important;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="250" fill="url(#winterGradient)"/>
+  
+  <!-- Falling Snowflakes -->
+  <text class="snowflake" x="10%" y="-10" font-size="24" fill="white" opacity="0.8" style="animation-duration: 8s; animation-delay: 0s;">❄</text>
+  <text class="snowflake" x="20%" y="-20" font-size="20" fill="white" opacity="0.7" style="animation-duration: 10s; animation-delay: 1s;">❅</text>
+  <text class="snowflake" x="30%" y="-15" font-size="28" fill="white" opacity="0.9" style="animation-duration: 7s; animation-delay: 2s;">❆</text>
+  <text class="snowflake" x="40%" y="-25" font-size="22" fill="white" opacity="0.8" style="animation-duration: 9s; animation-delay: 0.5s;">❄</text>
+  <text class="snowflake" x="50%" y="-10" font-size="26" fill="white" opacity="0.85" style="animation-duration: 8.5s; animation-delay: 1.5s;">❅</text>
+  <text class="snowflake" x="60%" y="-30" font-size="24" fill="white" opacity="0.75" style="animation-duration: 11s; animation-delay: 2.5s;">❆</text>
+  <text class="snowflake" x="70%" y="-20" font-size="20" fill="white" opacity="0.8" style="animation-duration: 9.5s; animation-delay: 0.8s;">❄</text>
+  <text class="snowflake" x="80%" y="-15" font-size="25" fill="white" opacity="0.9" style="animation-duration: 7.5s; animation-delay: 1.8s;">❅</text>
+  <text class="snowflake" x="90%" y="-25" font-size="23" fill="white" opacity="0.7" style="animation-duration: 10.5s; animation-delay: 2.2s;">❆</text>
+  
+  <!-- Additional Snowflakes for Density -->
+  <text class="snowflake" x="15%" y="-35" font-size="18" fill="white" opacity="0.6" style="animation-duration: 12s; animation-delay: 3s;">❄</text>
+  <text class="snowflake" x="35%" y="-40" font-size="21" fill="white" opacity="0.7" style="animation-duration: 8.8s; animation-delay: 1.2s;">❅</text>
+  <text class="snowflake" x="55%" y="-30" font-size="19" fill="white" opacity="0.65" style="animation-duration: 9.2s; animation-delay: 2.8s;">❆</text>
+  <text class="snowflake" x="75%" y="-35" font-size="22" fill="white" opacity="0.8" style="animation-duration: 10.8s; animation-delay: 0.3s;">❄</text>
+  <text class="snowflake" x="95%" y="-20" font-size="20" fill="white" opacity="0.75" style="animation-duration: 11.5s; animation-delay: 1.7s;">❅</text>
+  
+  <!-- Christmas Lights Border -->
+  <circle cx="5%" cy="15" r="5" fill="#ff0000" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="15%" cy="15" r="5" fill="#00ff00" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="25%" cy="15" r="5" fill="#ffff00" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35%" cy="15" r="5" fill="#0000ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="45%" cy="15" r="5" fill="#ff0000" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="55%" cy="15" r="5" fill="#00ff00" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="65%" cy="15" r="5" fill="#ffff00" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="75%" cy="15" r="5" fill="#0000ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="85%" cy="15" r="5" fill="#ff0000" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="95%" cy="15" r="5" fill="#00ff00" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main Title -->
+  <text class="banner-text" x="50%" y="100" font-size="48" font-weight="bold" fill="white" text-anchor="middle" 
+        style="filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));">
+    🎄 Threads 內容收藏家 ❄️
+  </text>
+  
+  <!-- Subtitle -->
+  <text class="banner-text" x="50%" y="145" font-size="22" fill="#e0e7ff" text-anchor="middle"
+        style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));">
+    ✨ 您的專屬迪士尼與優獸大都會檔案館 ✨
+  </text>
+  
+  <!-- Christmas Message -->
+  <text x="50%" y="180" font-size="16" fill="#fef3c7" text-anchor="middle" font-style="italic">
+    🎁 來自動物方城市的聖誕祝福！🎅
+  </text>
+  
+  <!-- Decorative Bottom Snowflakes -->
+  <text x="30%" y="220" font-size="20" fill="white" opacity="0.5">❄️</text>
+  <text x="50%" y="225" font-size="24" fill="white" opacity="0.6">❄️</text>
+  <text x="70%" y="220" font-size="20" fill="white" opacity="0.5">❄️</text>
+</svg>
 
 <table>
 <tr>
