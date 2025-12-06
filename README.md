@@ -4,144 +4,16 @@
 <!-- 🎄 CHRISTMAS ZOOTOPIA BANNER 2025 ❄️ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<svg width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="winterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Background -->
-  <rect width="100%" height="250" fill="url(#winterGradient)"/>
-  
-  <!-- Falling Snowflakes with SVG Animations -->
-  <text x="10%" y="30" font-size="24" fill="white" opacity="0.8">
-    ❄
-    <animateTransform attributeName="transform" type="translate" values="0,0; 20,250" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="20%" y="20" font-size="20" fill="white" opacity="0.7">
-    ❅
-    <animateTransform attributeName="transform" type="translate" values="0,0; -10,250" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="30%" y="40" font-size="28" fill="white" opacity="0.9">
-    ❆
-    <animateTransform attributeName="transform" type="translate" values="0,0; 30,250" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.8s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="40%" y="25" font-size="22" fill="white" opacity="0.8">
-    ❄
-    <animateTransform attributeName="transform" type="translate" values="0,0; -20,250" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="50%" y="35" font-size="26" fill="white" opacity="0.85">
-    ❅
-    <animateTransform attributeName="transform" type="translate" values="0,0; 15,250" dur="8.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.85;0.35;0.85" dur="2s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="60%" y="20" font-size="24" fill="white" opacity="0.75">
-    ❆
-    <animateTransform attributeName="transform" type="translate" values="0,0; 25,250" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.75;0.3;0.75" dur="2.3s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="70%" y="45" font-size="20" fill="white" opacity="0.8">
-    ❄
-    <animateTransform attributeName="transform" type="translate" values="0,0; -15,250" dur="9.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.9s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="80%" y="30" font-size="25" fill="white" opacity="0.9">
-    ❅
-    <animateTransform attributeName="transform" type="translate" values="0,0; 20,250" dur="7.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.1s" repeatCount="indefinite"/>
-  </text>
-  
-  <text x="90%" y="25" font-size="23" fill="white" opacity="0.7">
-    ❆
-    <animateTransform attributeName="transform" type="translate" values="0,0; -25,250" dur="10.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.4s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Christmas Lights Border -->
-  <circle cx="5%" cy="15" r="5" fill="#ff0000">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="15%" cy="15" r="5" fill="#00ff00">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="25%" cy="15" r="5" fill="#ffff00">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="35%" cy="15" r="5" fill="#0000ff">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="45%" cy="15" r="5" fill="#ff0000">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="55%" cy="15" r="5" fill="#00ff00">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="65%" cy="15" r="5" fill="#ffff00">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="75%" cy="15" r="5" fill="#0000ff">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="85%" cy="15" r="5" fill="#ff0000">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="95%" cy="15" r="5" fill="#00ff00">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Main Title with Glow Effect -->
-  <text x="50%" y="100" font-size="48" font-weight="bold" fill="white" text-anchor="middle" 
-        filter="url(#glow)">
-    🎄 Threads Content Collector ❄️
-    <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Subtitle -->
-  <text x="50%" y="145" font-size="22" fill="#e0e7ff" text-anchor="middle">
-    ✨ Your Personal Disney &amp; Zootopia Archive ✨
-    <animate attributeName="opacity" values="0.9;0.7;0.9" dur="4s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Christmas Message -->
-  <text x="50%" y="180" font-size="16" fill="#fef3c7" text-anchor="middle" font-style="italic">
-    🎁 Merry Christmas from Zootopia! 🎅
-  </text>
-  
-  <!-- Decorative Bottom Snowflakes -->
-  <text x="30%" y="220" font-size="20" fill="white" opacity="0.5">
-    ❄️
-    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite"/>
-  </text>
-  <text x="50%" y="225" font-size="24" fill="white" opacity="0.6">
-    ❄️
-    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </text>
-  <text x="70%" y="220" font-size="20" fill="white" opacity="0.5">
-    ❄️
-    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </text>
-</svg>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=Threads%20Content%20Collector&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=40"/>
+
+<h3 align="center">🎄 ❄️ Your Personal Disney & Zootopia Archive ✨ 🎁</h3>
 
 <table>
 <tr>
 <td width="30%" align="center">
 
 ### 🐰 **Judy Hopps**
-<img src="https://i.imgur.com/6kMRYYC.png" width="200" alt="Judy Hopps" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg'"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="120" alt="Judy Hopps"/>
 
 **"Anyone can be anything!"**
 
@@ -173,7 +45,7 @@
 <td width="30%" align="center">
 
 ### 🦊 **Nick Wilde**
-<img src="https://i.imgur.com/kFwGVTa.png" width="200" alt="Nick Wilde" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg'"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="120" alt="Nick Wilde"/>
 
 **"It's called a hustle, sweetheart."**
 
